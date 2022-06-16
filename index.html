@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+   
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+
+<!--Add database config here below-->
+const firebaseConfig = {
+  apiKey: "AIzaSyBr83pUBUpItssUUSLETH0eaOOb4E3W8hA",
+  authDomain: "fruit-collector-d4cd4.firebaseapp.com",
+  databaseURL: "https://fruit-collector-d4cd4-default-rtdb.firebaseio.com",
+  projectId: "fruit-collector-d4cd4",
+  storageBucket: "fruit-collector-d4cd4.appspot.com",
+  messagingSenderId: "386480049004",
+  appId: "1:386480049004:web:819acd2916beeedd908149",
+  measurementId: "G-WTPX82BGXJ"
+};
+  
+ // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>    
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
